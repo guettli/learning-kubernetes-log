@@ -12,6 +12,10 @@ How to enable the audit log?
 
 Are your allowed to use https://github.com/ahmetb/kubectl-aliases during the exam?
 
+bash completion works very cool: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+jsonpath: https://kubernetes.io/docs/reference/kubectl/jsonpath/ nice
+
 
 ---
 
