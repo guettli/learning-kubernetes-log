@@ -14,3 +14,5 @@ Are your allowed to use https://github.com/ahmetb/kubectl-aliases during the exa
 
 
 ---
+
+Why tool for playing around? minikube, kind, ... I will use "kind".
