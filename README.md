@@ -10,4 +10,7 @@ TODO: make my Anki Flashcard desk available for everyone.
 
 How to enable the audit log?
 
+Are your allowed to use https://github.com/ahmetb/kubectl-aliases during the exam?
+
+
 ---
