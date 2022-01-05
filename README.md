@@ -16,6 +16,15 @@ bash completion works very cool: https://kubernetes.io/docs/reference/kubectl/ch
 
 jsonpath: https://kubernetes.io/docs/reference/kubectl/jsonpath/ nice
 
+[kustomize](https://kubectl.docs.kubernetes.io/guides/introduction/kustomize/) nice: template-free. Instead: overlays.
+
+More than 20 years ago someone complained about Linux. He argued that MS-Windows has
+a central registry. The registry was like a central config database. But on Linux
+every server had its own config. And most config files had a different syntax. I agreed (althoug I prefered Linux),
+that a central registry would be nice. Now I see Kubernetes, and here it is. The central
+registry database of your data center. K8s has well defined, self documenting configuration. Nice.
+
+
 
 ---
 
