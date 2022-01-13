@@ -24,6 +24,10 @@ every server had its own config. And most config files had a different syntax. I
 that a central registry would be nice. Now I see Kubernetes, and here it is. The central
 registry database of your data center. K8s has well defined, self documenting configuration. Nice.
 
+I like this audiobook:
+> The Kubernetes Book
+> Author: Nigel Poulton
+https://www.audible.de/pd/The-Kubernetes-Book-Hoerbuch/B07Q4FPNX7
 
 
 ---
