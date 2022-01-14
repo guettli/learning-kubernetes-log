@@ -33,3 +33,10 @@ https://www.audible.de/pd/The-Kubernetes-Book-Hoerbuch/B07Q4FPNX7
 ---
 
 Why tool for playing around? minikube, kind, ... I will use "kind".
+
+---
+
+minikube start --driver=docker
+
+---
+
