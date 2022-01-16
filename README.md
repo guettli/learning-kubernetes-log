@@ -29,6 +29,8 @@ I like this audiobook:
 > Author: Nigel Poulton
 https://www.audible.de/pd/The-Kubernetes-Book-Hoerbuch/B07Q4FPNX7
 
+Great video of Zalando (Henning Jacobs) "how to crash your cluster"
+https://youtu.be/6sDTB4eV4F8
 
 ---
 
