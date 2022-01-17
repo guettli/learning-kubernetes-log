@@ -42,3 +42,12 @@ minikube start --driver=docker
 
 ---
 
+Kubernetes Fundamentals (LFS258). This course of the Linux-Foundation looks outdated. The instructions
+are in a PDF which you see inside the html page. This gives you two scroll-bars. If I try to scroll, then the scroll-event usually gets
+to the wrong scroll-bar. The text is talks about Ubuntu 18.04. I think the next time I will use a
+different organization for the course.
+
+---
+
+
+
