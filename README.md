@@ -49,5 +49,7 @@ different organization for the course.
 
 ---
 
+From time to time I look at https://stackoverflow.com/questions/tagged/kubernetes?tab=Newest and see if I can already
+answer some question. Although K8s is still very new to me, I can already answer some questions.
 
 
