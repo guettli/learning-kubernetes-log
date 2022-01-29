@@ -60,3 +60,8 @@ http://sotagtrends.com/?tags=fluentd+logstash+filebeat+promtail+fluent-bit
 
 ---
 
+The text of the "Kubernetes Fundamentals (LFS258)" course of the Linux-Foundation is outdated.
+I go through it page by page and for every new term I check the official docs at kubernetes.io.
+Then I usually create a card in Anki for this term.
+
+
