@@ -54,6 +54,9 @@ answer some question. Although K8s is still very new to me, I can already answer
 
 ---
 
+json-path vs go-template. Both are new to me. Which one to learn?
+
+
 Which tool for logging? Current choice: fluent-bit (smaller memory footprint)
 
 http://sotagtrends.com/?tags=fluentd+logstash+filebeat+promtail+fluent-bit
