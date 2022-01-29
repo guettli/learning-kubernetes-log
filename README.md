@@ -64,4 +64,12 @@ The text of the "Kubernetes Fundamentals (LFS258)" course of the Linux-Foundatio
 I go through it page by page and for every new term I check the official docs at kubernetes.io.
 Then I usually create a card in Anki for this term.
 
+---
+
+The Slack Channel [#cka-exam-prep](https://kubernetes.slack.com/archives/CA0HH2XTJ) is a great ressource. Searching in the channel helps to
+find solutions to common issues while learning. You have no access to the channel during the exam.
+
+---
+
+
 
