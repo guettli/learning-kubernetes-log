@@ -4,6 +4,16 @@ Random notes while learning Kubernetes.
 
 TODO: make my Anki Flashcard desk available for everyone.
 
+# February 2022
+
+Ansible/Terraform usualy run once. The operator pattern of K8s is better: it brings
+the current state into the desired state over and over again.
+
+[Parca](//parca.dev) looks cool: sampling profiling of a whole cluster without modifying the code!
+
+Startup dependencies between containers is not solved yet: https://github.com/kubernetes/kubernetes/issues/65502
+
+
 # January 2022
 
 [Stackoverflow: kube-apiserver: constantly 5 to 10% CPU: Although there is no single request](https://stackoverflow.com/questions/70592752/kube-apiserver-constantly-5-to-10-cpu-although-there-is-no-single-request)
