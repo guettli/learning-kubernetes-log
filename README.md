@@ -11,7 +11,8 @@ the current state into the desired state over and over again.
 
 [Parca](//parca.dev) looks cool: sampling profiling of a whole cluster without modifying the code!
 
-Startup dependencies between containers is not solved yet: https://github.com/kubernetes/kubernetes/issues/65502
+Startup dependencies between containers is not solved yet: https://github.com/kubernetes/kubernetes/issues/65502 (this is the issue with 2nd most number of up-votes of all)
+
 
 
 # January 2022
