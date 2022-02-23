@@ -6,6 +6,8 @@ TODO: make my Anki Flashcard desk available for everyone.
 
 # February 2022
 
+Which network plugin to use? I think Cilicum is the best solution. It will be used in GKE.
+
 Ansible/Terraform usualy run once. The operator pattern of K8s is better: it brings
 the current state into the desired state over and over again.
 
