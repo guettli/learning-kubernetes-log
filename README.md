@@ -22,6 +22,11 @@ What are the do's and don'ts of cloud-native applications? I think an applicatio
 
 This means PersistentVolumne and PVC exist, but this is not needed if you write cloud-native applications.
 
+---
+
+vscode has Kubernetes YAML support. Even with auto-complete. Nice.
+
+
 # January 2022
 
 [Stackoverflow: kube-apiserver: constantly 5 to 10% CPU: Although there is no single request](https://stackoverflow.com/questions/70592752/kube-apiserver-constantly-5-to-10-cpu-although-there-is-no-single-request)
