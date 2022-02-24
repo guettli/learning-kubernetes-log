@@ -34,6 +34,13 @@ instead of writing YAML files, you could use SQL (or a web-GUI) to define your d
 I never started to implement this "vision". Because Kubernetes is this vision. Except that it is not SQL, but nevertheless
 Kubernetes provides this well defined schema. I like it.
 
+---
+
+I see experienced people struggling with Kubernetes. They have 20 years experience in IT. This means they
+were able to do their IT work 20 years without kubernetes. They are experts, but they struggle to 
+except/adapt/enbrace Kubernetes.
+
+Young people are more open to now things. This is normal for mammals.
 
 
 # January 2022
