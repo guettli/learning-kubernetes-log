@@ -26,6 +26,15 @@ This means PersistentVolumne and PVC exist, but this is not needed if you write 
 
 vscode has Kubernetes YAML support. Even with auto-complete. Nice.
 
+---
+
+Some years ago, while fighting with config-management with SaltStack I had a "vision": Config-management
+with SaltStack, Ansible ... is nice, but it would be much better if you had a relational database schema, and
+instead of writing YAML files, you could use SQL (or a web-GUI) to define your desired state. I am happy that
+I never started to implement this "vision". Because Kubernetes is this vision. Except that it is not SQL, but nevertheless
+Kubernetes provides this well defined schema. I like it.
+
+
 
 # January 2022
 
