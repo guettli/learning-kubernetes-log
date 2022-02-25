@@ -51,6 +51,17 @@ Wow, three great books about SRE are available for free: https://sre.google/book
 The #kubernetes-users Slack channel is great. You get profound answers during several minutes (not always, but often).
 From time to time I try to answer questions, too. Although I don't know much yet, sometimes I can help.
 
+---
+
+You want to use a managed kubernetes, but you are unsure which provider to choose? Kubernetes is an open source project.
+I think it makes sense to choose a provider who contributes much to it.
+
+Here is a chart of contributions per company: https://k8s.devstats.cncf.io/d/9/companies-table?orgId=1
+
+Conclusion: I think I will use Google (GKE) or Azure (AKE). Not AWS.
+
+
+
 
 # January 2022
 
