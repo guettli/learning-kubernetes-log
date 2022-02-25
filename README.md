@@ -46,6 +46,12 @@ Young people are more open to now things. This is normal for mammals.
 
 Wow, three great books about SRE are available for free: https://sre.google/books/ (I read the first one in 2018)
 
+---
+
+The #kubernetes-users Slack channel is great. You get profound answers during several minutes (not always, but often).
+From time to time I try to answer questions, too. Although I don't know much yet, sometimes I can help.
+
+
 # January 2022
 
 [Stackoverflow: kube-apiserver: constantly 5 to 10% CPU: Although there is no single request](https://stackoverflow.com/questions/70592752/kube-apiserver-constantly-5-to-10-cpu-although-there-is-no-single-request)
