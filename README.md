@@ -18,7 +18,7 @@ the current state into the desired state over and over again.
 Startup dependencies between containers is not solved yet: https://github.com/kubernetes/kubernetes/issues/65502 (this is the issue with 2nd most number of up-votes of all)
 
 
-What are the do's and don'ts of cloud-native applications? I think an application should not need a block device. This means you don't need things like Ceph or Longhorn. And I have think an app should not need any persistent volumne. Write the data to a s3 like object store (like minio).
+What are the do's and don'ts of cloud-native applications? I think an application should not need a block device. This means you don't need things like Ceph or Longhorn. And I think an app should not need any persistent volumne. Write the data to a s3 like object store (like minio).
 
 This means PersistentVolumne and PVC exist, but this is not needed if you write cloud-native applications.
 
