@@ -42,6 +42,9 @@ except/adapt/enbrace Kubernetes.
 
 Young people are more open to now things. This is normal for mammals.
 
+---
+
+Wow, three great books about SRE are available for free: https://sre.google/books/ (I read the first one in 2018)
 
 # January 2022
 
