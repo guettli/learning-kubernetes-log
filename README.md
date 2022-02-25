@@ -8,6 +8,57 @@ TODO: my questions in #kubernetes-users
 
 # February 2022
 
+off-topic: As a developer, how can I define a dependency between my app and a service which
+my app needs? AFAIK there is no solution yet.
+
+Defining dependencies between an app and a library is easy. But between services .... I have no clue (although this
+is a very basic question)
+
+---
+
+You want to use a managed kubernetes, but you are unsure which provider to choose? Kubernetes is an open source project.
+I think it makes sense to choose a provider who contributes much to it.
+
+Here is a chart of contributions per company: https://k8s.devstats.cncf.io/d/9/companies-table?orgId=1
+
+Conclusion: I think I will use Google (GKE) or Azure (AKE). Not AWS.
+
+
+---
+
+The #kubernetes-users Slack channel is great. You get profound answers during several minutes (not always, but often).
+From time to time I try to answer questions, too. Although I don't know much yet, sometimes I can help.
+
+---
+
+Wow, three great books about SRE are available for free: https://sre.google/books/ (I read the first one in 2018)
+
+---
+
+
+I see experienced people struggling with Kubernetes. They have 20 years experience in IT. This means they
+were able to do their IT work 20 years without kubernetes. They are experts, but they struggle to 
+except/adapt/enbrace Kubernetes.
+
+Young people are more open to now things. This is normal for mammals.
+
+---
+
+
+Some years ago, while fighting with config-management with SaltStack I had a "vision": Config-management
+with SaltStack, Ansible ... is nice, but it would be much better if you had a relational database schema, and
+instead of writing YAML files, you could use SQL (or a web-GUI) to define your desired state. I am happy that
+I never started to implement this "vision". Because Kubernetes is this vision. Except that it is not SQL, but nevertheless
+Kubernetes provides this well defined schema. I like it.
+
+---
+
+---
+
+vscode has Kubernetes YAML support. Even with auto-complete. Nice.
+
+---
+
 Which network plugin to use? I think Cilicum is the best solution. It will be used in GKE.
 
 Ansible/Terraform usualy run once. The operator pattern of K8s is better: it brings
@@ -21,45 +72,6 @@ Startup dependencies between containers is not solved yet: https://github.com/ku
 What are the do's and don'ts of cloud-native applications? I think an application should not need a block device. This means you don't need things like Ceph or Longhorn. And I think an app should not need any persistent volumne. Write the data to a s3 like object store (like minio).
 
 This means PersistentVolumne and PVC exist, but this is not needed if you write cloud-native applications.
-
----
-
-vscode has Kubernetes YAML support. Even with auto-complete. Nice.
-
----
-
-Some years ago, while fighting with config-management with SaltStack I had a "vision": Config-management
-with SaltStack, Ansible ... is nice, but it would be much better if you had a relational database schema, and
-instead of writing YAML files, you could use SQL (or a web-GUI) to define your desired state. I am happy that
-I never started to implement this "vision". Because Kubernetes is this vision. Except that it is not SQL, but nevertheless
-Kubernetes provides this well defined schema. I like it.
-
----
-
-I see experienced people struggling with Kubernetes. They have 20 years experience in IT. This means they
-were able to do their IT work 20 years without kubernetes. They are experts, but they struggle to 
-except/adapt/enbrace Kubernetes.
-
-Young people are more open to now things. This is normal for mammals.
-
----
-
-Wow, three great books about SRE are available for free: https://sre.google/books/ (I read the first one in 2018)
-
----
-
-The #kubernetes-users Slack channel is great. You get profound answers during several minutes (not always, but often).
-From time to time I try to answer questions, too. Although I don't know much yet, sometimes I can help.
-
----
-
-You want to use a managed kubernetes, but you are unsure which provider to choose? Kubernetes is an open source project.
-I think it makes sense to choose a provider who contributes much to it.
-
-Here is a chart of contributions per company: https://k8s.devstats.cncf.io/d/9/companies-table?orgId=1
-
-Conclusion: I think I will use Google (GKE) or Azure (AKE). Not AWS.
-
 
 
 
