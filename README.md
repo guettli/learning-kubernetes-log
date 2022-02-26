@@ -33,7 +33,14 @@ kind-worker2         Ready    <none>                 22h   v1.23.3   172.18.0.4 
 
 `kubectl` works directly from your PC, too. But from inside the cluster you can access the nodes of the cluster, which you can't from your PC. At least I found no way to do it. Please tell me if you found a way.
 
-  
+You need to install some packages:
+
+```
+apt update
+apt install iputils-ping dnsutils vim bash-completion less wget
+```
+
+And then bash-completion: https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/
 
 ---
 
