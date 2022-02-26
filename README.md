@@ -8,6 +8,35 @@ TODO: my questions in #kubernetes-users
 
 # February 2022
 
+
+I use kind (kubernetes in docker) to play around with Kubernetes on my desktop.
+
+Working with `kubectl` works, but connecting to the nodes in the Kubernetes cluster does not work.
+
+The simples solution to connect to nodes in my kind cluster is via the docker container which is called `kind-control-plane`.
+
+You can access this node via:
+
+```
+me@pc> docker container exec -it kind-control-plane bash 
+```
+
+Then you can execute commands:
+
+```
+root@kind-control-plane:/# kubectl get nodes -o=wide
+NAME                 STATUS   ROLES                  AGE   VERSION   INTERNAL-IP   EXTERNAL-IP   OS-IMAGE       KERNEL-VERSION      CONTAINER-RUNTIME
+kind-control-plane   Ready    control-plane,master   22h   v1.23.3   172.18.0.3    <none>        Ubuntu 21.10   5.13.0-28-generic   containerd://1.5.9
+kind-worker          Ready    <none>                 22h   v1.23.3   172.18.0.2    <none>        Ubuntu 21.10   5.13.0-28-generic   containerd://1.5.9
+kind-worker2         Ready    <none>                 22h   v1.23.3   172.18.0.4    <none>        Ubuntu 21.10   5.13.0-28-generic   containerd://1.5.9
+```
+
+`kubectl` works directly from your PC, too. But from inside the cluster you can access the nodes of the cluster, which you can't from your PC. At least I found no way to do it. Please tell me if you found a way.
+
+  
+
+---
+
 off-topic: As a developer, how can I define a dependency between my app and a service which
 my app needs? AFAIK there is no solution yet.
 
