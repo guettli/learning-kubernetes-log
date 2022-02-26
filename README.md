@@ -11,6 +11,24 @@ TODO: my questions in #kubernetes-users
 
 I use kind (kubernetes in docker) to play around with Kubernetes on my desktop.
 
+I create the cluster like this
+```
+kind create cluster --image kindest/node:v1.23.3 --config multi-node-config-kind.yaml 
+```
+
+With this config:
+```
+# multi-node-config-kind.yaml 
+# three node (two workers) cluster config
+# https://kind.sigs.k8s.io/docs/user/quick-start/#multinode-clusters
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: worker
+- role: worker
+```
+
 Working with `kubectl` works, but connecting to the nodes in the Kubernetes cluster does not work.
 
 The simples solution to connect to nodes in my kind cluster is via the docker container which is called `kind-control-plane`.
