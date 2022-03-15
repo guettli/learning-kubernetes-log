@@ -6,6 +6,15 @@ TODO: make my Anki Flashcard desk available for everyone.
 
 TODO: my questions in #kubernetes-users
 
+# March 2022
+
+There are several ways for the inner development loop, if you want to develop an application
+on kubernetes:
+
+* https://skaffold.dev/
+* https://tilt.dev/
+* https://www.telepresence.io/
+
 # February 2022
 
 
