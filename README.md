@@ -181,6 +181,9 @@ are in a PDF which you see inside the html page. This gives you two scroll-bars.
 to the wrong scroll-bar. The text is talks about Ubuntu 18.04. I think the next time I will use a
 different organization for the course.
 
+[KodeKloud](<a href="https://kodekloud.com/) looks better. If you book for one year, then you can do CKA and additional other courses. 
+
+
 ---
 
 From time to time I look at https://stackoverflow.com/questions/tagged/kubernetes?tab=Newest and see if I can already
