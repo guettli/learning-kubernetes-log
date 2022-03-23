@@ -8,8 +8,15 @@ TODO: my questions in #kubernetes-users
 
 # March 2022
 
+You can read the Kubernetes docs from top to buttom. But you should not follow the confusing links in the text. On the left side of [kubernetes.io](https://kubernetes.io/docs/home/) is a nice table of content. Follow this from top to bottom, and you need no additional book or course.
+
+And the slack channel #kubernetes-users is very helpful. 
+
+---
+
 [What Kubernetes is not](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/#what-kubernetes-is-not)
 
+---
 
 There are several ways for the inner development loop, if you want to develop an application
 on kubernetes:
