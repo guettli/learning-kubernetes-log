@@ -8,6 +8,9 @@ TODO: my questions in #kubernetes-users
 
 # March 2022
 
+[What Kubernetes is not](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/#what-kubernetes-is-not)
+
+
 There are several ways for the inner development loop, if you want to develop an application
 on kubernetes:
 
