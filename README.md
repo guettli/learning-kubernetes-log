@@ -12,7 +12,7 @@ TODO: my questions in #kubernetes-users
 
 You want to learn Kubernetes? 
 
-You can read the Kubernetes docs from top to buttom. But you should not follow the confusing links in the text. On the left side of [kubernetes.io](https://kubernetes.io/docs/home/) is a nice table of content. Follow this from top to bottom, and you need no additional book or course.
+You can read the Kubernetes docs from top to buttom. But you should not follow the confusing links in the text. On the left side of [kubernetes.io](https://kubernetes.io/docs/home/) is a nice table of content. Follow this from top to bottom, and you need no additional book or course. Don't follow the "What's next" at the bottom of the page.
 
 And the slack channel #kubernetes-users is very helpful. 
 
