@@ -8,6 +8,12 @@ TODO: my questions in #kubernetes-users
 
 # March 2022
 
+
+kubernetes.io is great. There are several small tasks which explain how to configure a cluster:
+
+https://kubernetes.io/docs/tasks/administer-cluster/
+
+
 ---
 
 You want to learn Kubernetes? 
