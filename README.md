@@ -8,6 +8,19 @@ TODO: my questions in #kubernetes-users
 
 # March 2022
 
+I like Kubernetes because the docs are great.
+
+You can have a look at `kubectl explain ...` (roughly like man-pages on linux). 
+
+You can have a look at the values in your cluster with `kubectl get ...`.
+
+There is [kubernetes.io](//kubernetes.io).
+
+And you favorite search engine finds an answer to most question.
+
+If this fails there is #kubernetes-users.
+
+---
 
 kubernetes.io is great. There are several small tasks which explain how to configure a cluster:
 
