@@ -8,6 +8,11 @@ TODO: my questions in #kubernetes-users
 
 # March 2022
 
+today I learned what the vertical-pod-autoscaler does. First I thought the VPA
+will add more resources, if more resources are needed. But that's completely wrong.
+Read https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler#intro
+
+---
 I like Kubernetes because the docs are great.
 
 You can have a look at `kubectl explain ...` (roughly like man-pages on linux). 
