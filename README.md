@@ -12,7 +12,7 @@ I can recommend the CKA from [KodeKloud](https://kodekloud.com/courses/certified
 
 One month costs 35 Euro. That's a fair price. And you can do all courses during this month. They have interactive
 training with a web based terminal. I prefer KodeKloud to killer.sh, since KodeKloud has many small questions and you get
-feedback immediately. And KodeKloud is a course, while killer.sh is just an exam like environment with 25 questions.
+feedback immediately. And KodeKloud is a course, while killer.sh is just an exam simulator.
 
 # March 2022
 
