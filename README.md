@@ -8,6 +8,10 @@ TODO: my questions in #kubernetes-users
 
 # April 2022
 
+Kubernetes solves a problem which many small companies don't have. If you can handle your load on one server,
+then you might not need Kubernetes.
+
+--- 
 I can recommend the CKA from [KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/)
 
 One month costs 35 Euro. That's a fair price. And you can do all courses during this month. They have interactive
