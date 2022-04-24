@@ -11,7 +11,7 @@ TODO: my questions in #kubernetes-users
 [tobs - The Observability Stack for Kubernetes](https://github.com/timescale/tobs) looks good at first sight. But I think
 the main goal of the project is to promote the TimescaleDB product.
 
-I think [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) is a good way to run Prometheus.
+I think [prometheus-operator](https://prometheus-operator.dev/) is a good way to run Prometheus.
 
 ---
 
