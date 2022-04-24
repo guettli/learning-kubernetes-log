@@ -8,6 +8,13 @@ TODO: my questions in #kubernetes-users
 
 # April 2022
 
+[tobs - The Observability Stack for Kubernetes](https://github.com/timescale/tobs) looks good at first sight. But I think
+the main goal of the project is to promote the TimescaleDB product.
+
+I think [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) is a good way to run Prometheus.
+
+---
+
 Kubernetes solves a problem which many small companies don't have. If you can handle your load on one server,
 then you might not need Kubernetes.
 
