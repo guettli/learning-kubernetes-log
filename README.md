@@ -18,7 +18,38 @@ I think [prometheus-operator](https://prometheus-operator.dev/) is a good way to
 Kubernetes solves a problem which many small companies don't have. If you can handle your load on one server,
 then you might not need Kubernetes.
 
+The audio book "Building Microservices Designing Fine-Grained Systems" of Sam Newman is great.
+
+And it underlines it several times: Most people don't need Kubernetes and Microservices. It is very likely that a [PaaS](https://en.wikipedia.org/wiki/Platform_as_a_service) solution will get you to your goal faster.
+
+Still, I want to dive into Kubernetes because I want to understand how things work under the hood.
+
+I think that sooner or later there will be an established open source PaaS or Faas solution. 
+Kubernetes is the common denominator, so that it gets a lot of attraction. But do you really want to deal with all the details?
+
+It will take some years until there is something that we all want. An open source and easier to use tool build on top of Kubernetes.
+
+People who don't like details are adviced to not use Kubernetes, or the service of a fully managed Kubernetes.
+
+What is a "fully managed Kubernetes"? If you use the offerings from Google, Azure, AWS, VMWare, then you get a managed Kubernetes.
+
+A "fully managed Kubernetes" is a service on top of a managed Kubernetes. 
+
+If you have enough money and people you can handle this yourself. It depends on the size of your company. But if you have only
+20 developers developing code you want to run in a cloud-native fashion, then a PaaS solution makes more sense. It is not
+enough to have one person who cares for Kubernetes. Except an outage of several days is okay for you, since this one person
+is not reachable.
+
+I think many people have not understood that a managed Kubernetes does not hide the details.
+
+This is not like switching from Apache to Nginx.
+
+All the best, have fun.
+
+
+
 --- 
+
 I can recommend the CKA from [KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/)
 
 One month costs 35 Euro. That's a fair price. And you can do all courses during this month. They have interactive
