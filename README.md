@@ -60,6 +60,13 @@ feedback immediately. And KodeKloud is a course, while killer.sh is just an exam
 
 # March 2022
 
+Great podcast about distributed tracing: Jaeger, with Yuri Shkuro
+
+https://kubernetespodcast.com/episode/097-jaeger/
+
+
+---
+
 today I learned what the vertical-pod-autoscaler does. First I thought the VPA
 will add more resources, if more resources are needed. But that's completely wrong.
 Read https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler#intro
