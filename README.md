@@ -301,5 +301,13 @@ find solutions to common issues while learning. You have no access to the channe
 
 ---
 
+# 2000
+
+I was Scrum Master at Staffbase. In this year Kubernetes got introduced. I learned the basics, but was
+involved only at a high level - no `kubectl` :-)
+
+# 2016
+
+I had a look at Kubernetes. But at this time everything was confusing for me.
 
 
