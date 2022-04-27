@@ -311,3 +311,6 @@ involved only at a high level - no `kubectl` :-)
 I had a look at Kubernetes. But at this time everything was confusing for me.
 
 
+# Related things I wrote
+
+See [Thomas doing working out loud](https://github.com/guettli/wol)
