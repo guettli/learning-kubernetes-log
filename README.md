@@ -46,7 +46,9 @@ This is not like switching from Apache to Nginx.
 
 All the best, have fun.
 
+---
 
+Yes! I passed the CKA exam: [cka-cert-2022.pdf](cka-cert-2022.pdf)
 
 --- 
 
