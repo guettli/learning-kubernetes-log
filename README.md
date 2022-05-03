@@ -6,6 +6,22 @@ TODO: make my Anki Flashcard desk available for everyone.
 
 TODO: my questions in #kubernetes-users
 
+# Mai 2022
+
+Immutable Linux (for nodes). [3 Immutable Operating Systems: Bottlerocket, Flatcar and Talos Linux](https://thenewstack.io/3-immutable-operating-systems-bottlerocket-flatcar-and-talos-linux/)
+
+[k9s](https://k9scli.io/) terminal GUI to manage clusters.
+
+krew plugins: 
+* stern (like `tail -f` for many pods).
+* tree: resolve OwnerReference
+* outdated: List outdated images
+
+[kube-ssh](https://github.com/AverageMarcus/kube-ssh) access a node like via ssh (uses kubectl)
+
+
+
+
 # April 2022
 
 [tobs - The Observability Stack for Kubernetes](https://github.com/timescale/tobs) looks good at first sight. But I think
