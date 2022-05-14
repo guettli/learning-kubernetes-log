@@ -8,6 +8,27 @@ TODO: my questions in #kubernetes-users
 
 # Mai 2022
 
+I switched from KinD to minikube as my local playground.
+
+Working with several minikube profiles is handy.
+
+```
+guettli@p15:~$ minikube profile list
+
+|--------------|-----------|---------|--------------|------|---------|---------|-------|
+|   Profile    | VM Driver | Runtime |      IP      | Port | Version | Status  | Nodes |
+|--------------|-----------|---------|--------------|------|---------|---------|-------|
+| minikube     | docker    | docker  | 192.168.49.2 | 8443 | v1.23.3 | Stopped |     2 |
+| serious-kube | docker    | docker  | 192.168.58.2 | 8443 | v1.23.3 | Stopped |     1 |
+|--------------|-----------|---------|--------------|------|---------|---------|-------|
+```
+
+```
+guettli@p15:~$ minikube -p serious-kube status
+```
+
+---
+
 Immutable Linux (for nodes). [3 Immutable Operating Systems: Bottlerocket, Flatcar and Talos Linux](https://thenewstack.io/3-immutable-operating-systems-bottlerocket-flatcar-and-talos-linux/)
 
 [k9s](https://k9scli.io/) terminal GUI to manage clusters.
