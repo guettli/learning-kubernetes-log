@@ -8,6 +8,13 @@ TODO: my questions in #kubernetes-users
 
 # Mai 2022
 
+There are many ways to set up Prometheus and Grafan. This looks good:
+
+https://github.com/prometheus-operator/kube-prometheus
+
+---
+
+
 I switched from KinD to minikube as my local playground.
 
 Working with several minikube profiles is handy.
