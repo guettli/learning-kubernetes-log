@@ -4,7 +4,16 @@ Random notes while learning Kubernetes.
 
 TODO: make my Anki Flashcard desk available for everyone.
 
-TODO: my questions in #kubernetes-users
+# Mai 2023
+
+I work at [Syself](//syself.com) since January. Syself supports start-ups and SMEs on their cloud-native journey.
+
+Now I develop Kubernetes operators in Go and enjoy it.
+
+After 20 years of Python and 10 years Django, it was time for a change.
+
+Still learning.
+
 
 # Mai 2022
 
